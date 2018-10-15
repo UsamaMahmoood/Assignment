@@ -1,0 +1,11 @@
+Get two computers in a LAN.
+
+Run the server on one computer with:
+
+./server.out
+Get the IP of the server computer with ifconfig, e.g. 192.168.0.10.
+
+On the other computer, run:
+
+./client.out 192.168.0.10
+Now type lines on the client, and the server will return them incremented by 1 (ROT-1 cypher).
